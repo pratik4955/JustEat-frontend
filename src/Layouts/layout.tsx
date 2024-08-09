@@ -6,7 +6,7 @@ type Props={
     children:React.ReactNode;
     showHero?:boolean;
 }
-const layout=({children,showHero=false}:Props)=>{
+const Layout=({children,showHero=false}:Props)=>{
   return (
     <div className='flex flex-col min-h-screen'>
         <Header/>
@@ -16,6 +16,6 @@ const layout=({children,showHero=false}:Props)=>{
     </div>
   )
 }
-export default layout
+export default Layout;
 
 
